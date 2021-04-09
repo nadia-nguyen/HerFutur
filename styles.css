@@ -1,0 +1,83 @@
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 30px;
+    margin-right: 100px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+}
+
+.navbar ul,li {
+    display:inline-block;
+    vertical-align: top;
+    background-color: white;
+    overflow:hidden;
+    margin-right: 100px;
+    line-height:20px;
+}
+
+.navbar a{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.header {
+    width: 100vw;
+    background: linear-gradient(180deg, #D3D0F0 -17.82%, #C6D2ED 100.04%);
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.left {
+    padding-left: 10%;
+    float: left;
+    font-size: 20pt;
+    width: 65%;
+}
+
+.right {
+    float: right;
+    width:30%;
+    padding-right: 10%;
+}
+
+.right img {
+    padding-right: 10%;
+    height:300px;
+}
+
+.main-content {
+    display: inline-flex;
+    padding: 10% 10%;
+    width: 100%;
+}
+
+.main-content img {
+    width: 200px;
+    height: 200px;
+}
+
+.connect-column {
+    float: left;
+    padding-left: 10%;
+    width:50%;
+}
+
+
+.educate-column{
+    float: right;
+    padding-right: 10%;
+    width: 50%;
+}
+
+
+
