@@ -35,11 +35,40 @@ body {
 
 .header {
     background: linear-gradient(180deg, #D3D0F0 -17.82%, #C6D2ED 100.04%);
-    display: block;
-    font-size: 20px;
-    padding: 5% 0% 5% 5%;
+    display:flex;
+    height: 300px;
+    
 }
 
-.header p{
-    width: 50%;
+.text {
+    font-size: 20pt;
+    padding-left: 10%;
+    width: 65%;
+}
+
+.topic-button {
+    margin-top: 10%;
+    margin: 5% 0% 0% 10%;
+    padding: 2.5% 0 2.5% 2.5%;
+    width: 80%;
+    border-radius: 25px;
+    display: flex;
+}
+
+.topic-text {
+    text-align: left;
+    width: 60%;
+}
+
+.topic-button img{
+    padding-left: 30%;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    margin-top: 5%;
+    padding: 3px;
+    text-align: center;
+    background-color: lightblue;
 }

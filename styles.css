@@ -34,7 +34,6 @@ body {
 }
 
 .header {
-    width: 100%;
     background: linear-gradient(180deg, #D3D0F0 -17.82%, #C6D2ED 100.04%);
     display: flex;
 }
@@ -103,7 +102,7 @@ body {
     padding: 2.5% 0 2.5% 0;
     width: 30%;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 25px;
 }
 
 footer {
