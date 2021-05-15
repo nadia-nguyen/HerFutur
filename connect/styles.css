@@ -1,0 +1,34 @@
+body {
+    font-family: Georgia;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 30px;
+    margin-right: 100px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+}
+
+.navbar ul,li {
+    display:inline-block;
+    vertical-align: top;
+    background-color: white;
+    overflow:hidden;
+    margin-right: 100px;
+    line-height:20px;
+}
+
+.navbar a{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
